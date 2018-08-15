@@ -25,7 +25,7 @@ else:
         print(line)
 ```
 
-There's only one switch `-l` which runs your code on each line separately. Otherwise you get the whole stdin as an array of lines.
+There's only one switch `-l` which runs your code on each line separately. Otherwise you get the all of stdin as an array of lines.
 
 ## Install
 
