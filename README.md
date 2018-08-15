@@ -49,7 +49,7 @@ postgres
 Display how much time ago containers have exited:
 
 ```bash
-> docker ps -a | py 'filter(lambda x: "Exited" in x, {})' | py -l '{}.split()[-1].ljust(20) + " => " + re.split(r"' '{2,}", {})[-2]'
+> docker ps -a | py 'filter(lambda x: "Exited" in x, {})' | py -l '{}.split()[-1].ljust(20) + " => " + re.split(r"\s{2,}", {})[-2]'
 
 angry_hamilton      => Exited (0) 18 hours ago
 dreamy_lamport      => Exited (0) 3 days ago
