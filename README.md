@@ -1,6 +1,6 @@
 # py
 
-Port of [thisredone/py](https://github.com/thisredone/rb) to Python. All credit/inspiration goes to [thisredone](https://github.com/thisredone).
+Port of [thisredone/rb](https://github.com/thisredone/rb) to Python. All credit/inspiration goes to [thisredone](https://github.com/thisredone).
 
 With 12 lines of Python, replace most of the command line tools that you use to process text inside of the terminal.
 
